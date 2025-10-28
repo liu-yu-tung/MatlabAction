@@ -23,4 +23,4 @@ function [radio_Tx,radio_Rx] = USRP_init(rx_length)
                    
 end
 
-function(1);
+USRP_init(1);

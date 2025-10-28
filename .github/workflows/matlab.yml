@@ -12,6 +12,7 @@ jobs:
         with:
           products: >
             Communications_Toolbox
+            Communications_Toolbox_Support_Package_for_USRP_Radio
             Wireless_Testbench
           release: R2024a
       - name: Run findsdru()

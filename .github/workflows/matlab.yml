@@ -11,6 +11,10 @@ jobs:
         uses: matlab-actions/setup-matlab@v2
         with:
           release: R2024a
+      - name: Run findsdru()
+        uses: matlab-actions/run-command@v2
+        with:
+          command: findsdru()
       - name: Run script
         uses: matlab-actions/run-command@v2
         with:
